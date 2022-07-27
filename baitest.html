@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-
+<script>
+    let cuong=[1,2,3,4,5,6]
+    let a=0;
+    let b= cuong.length -1;
+    for ( ;a<b;a++){
+        let c= cuong[a];
+        cuong[a]=cuong[b];
+        cuong[b]=c;
+        b--;
+    }
+    document.write(cuong)
+</script>
 </body>
 </html>
